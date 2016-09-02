@@ -31,7 +31,7 @@ client.on('close', function() {
 // Handler for error event in client socket
 client.on('error', function(err) {
 	if(err.code == 'ECONNRESET'){
-		console.log('\n\nConnection closed abruptly.');
+		console.log('\n\nConnection closed abruptly!');
 		console.log('Disconnected from server.');
 	}
 	else{
