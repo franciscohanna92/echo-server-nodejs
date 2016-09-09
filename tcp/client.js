@@ -5,7 +5,7 @@ const PORT = 1337;
 var stdin = process.stdin;
 var stdout = process.stdout;
 
-// Handler for incoming data event in client socket
+// Create new socket object for client
 var client = new net.Socket();
 
 // Opens the connection for socket IP:PORT
