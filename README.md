@@ -1,11 +1,13 @@
 <h1>Echo server with NodeJS</h1>
-<p>This is a simple echo server over TCP implementation, using NodeJS. <br>
-In order to run it, frist, you will have to install NodeJS. Once installed, clone this repo, open a terminal in the local folder where you clone the repo and run 'node server.js'. Open another terminal in the same local folder and run 'node client.js'. Send messages with the client and watch server respond.
+<p> TCP and UDP implementations are provided. <br>
+The TCP implementation uses NodeJS's <i>net</i> module, whereas UDP implementation uses <i>dgram</i> module. <br>
+Clone or download this repo, then execute 'client.js' and 'server.js' in separate terminals. Send messages from client and get echo responses from server.
 </p>
 
 -------------------------------
 
 <h1>Servidor echo con NodeJS</h1>
-<p>Esta es una implementacion de un servidor echo sobre TCP, usando NodeJS  <br>
-Para correrlo, primero necesitas instalar NodeJS. Una vez que lo hayas instalado, clona este repositorio, abri un terminal en el directorio local donde lo clonaste y ejecuta el comando 'node server.js'. Abri otro terminal en el mismo directorio local y ejecuta 'node client.js'. Manda mensajes desde el cliente y observa las respuestas del servidor.
+<p>Se proveen implementaciones sobre TCP y sobre UDP.<br>
+La implementacion sobre TCP utiliza el modulo <i>net</i> de NodeJS, mientras que la implementacion UDP utiliza el modulo <i>dgram</i>.<br>
+Clona o descarga este repositorio, luego ejecuta los archivos 'client.js' y 'server.js' en terminales diferentes. Envia mensajes desde el cliente y recibi las respuestas echo del servidor.
 </p>
