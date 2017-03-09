@@ -9,5 +9,5 @@ Clone or download this repo, then execute 'client.js' and 'server.js' in separat
 <h1>Servidor echo con NodeJS</h1>
 <p>Se proveen implementaciones sobre TCP y sobre UDP.<br>
 La implementacion sobre TCP utiliza el modulo <i>net</i> de NodeJS, mientras que la implementacion UDP utiliza el modulo <i>dgram</i>.<br>
-Clona o descarga este repositorio, luego ejecuta los archivos 'client.js' y 'server.js' en terminales diferentes. Envia mensajes desde el cliente y recibi las respuestas echo del servidor.
+Clona o descarga este repositorio, luego ejecuta los archivos 'client.js' y 'server.js' en terminales diferentes. Envia mensajes desde el cliente y recibe las respuestas echo del servidor.
 </p>
